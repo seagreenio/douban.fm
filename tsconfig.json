@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["esnext"],
+    "strict": true,
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true
+  },
+  "include": ["src"]
+}
