@@ -36,9 +36,7 @@
     "typescript": "^3.7.5"
   },
   "lint-staged": {
-    "*.ts": [
-      "prettier --write"
-    ]
+    "*.ts": "prettier --write"
   },
   "husky": {
     "hooks": {
